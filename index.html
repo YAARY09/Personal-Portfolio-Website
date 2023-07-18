@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0f">
+    <title>Personal Portfolio  Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/5feb7914b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header" >
+        <div class="container">
+
+            
+            <nav>
+                <h1 class="logo"><span>Portfo</span>lio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact   ">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        
+                <div class="header-text">
+                    
+                    <h1>Hi, I'm <span>YASHRAJ</span> GUPTA </h1>
+                    <p>Frontend Developer (I GOT NO CHILL)</p>
+                </div>
+        </div>
+    </div>
+<!----------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="LOLO.jpg" alt="Sajad" class="lolo" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Frontend developer with a strong work ethic and excellent customer service record. Deeply knowledgeable in a wide variety of computer languages, including HTML5, CSS and JavaScript and understands principles and techniques of initial website construction and ongoing maintenance. Strong communicator and is flexible with scheduling.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Developer</span><br>Web app Development</li>
+                            <li><span>App Developer</span><br>Android app Development</li>
+                            
+                        </ul>
+                        <a href="resume.pdf" download class="btn btn2 cv">Download CV</a>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>App Development</li>
+                            <li><span>2021</span><br>Full Stack intern at ICsoln</li>
+                            <li><span>2020</span><br>Web Development</li>
+                            
+                        </ul>
+                        <a href="pic/sajad cv.pdf" download class="btn btn2 cv">Download CV</a>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-Current</span><br>B.E Computer Science Engineering</li>
+                            <li><span>2018</span><br>12th From SYNA International School</li>
+                            <li><span>2017</span><br>10th From SYNA International School </li>
+                            
+                        </ul>
+                        <a href="pic/sajad cv.pdf" download class="btn btn2 cv">Download CV</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------services-------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <h2>Web Design</h2>
+                <p>
+                    Custom Website Design <br>
+                    Responsive Web Design <br>
+                    Ongoing Support and Maintenance   
+                    <!-- <a href="#">Learn more</a> -->
+                </p>
+            </div>
+            <div>
+                <i class="fa-brands fa-uikit"></i>
+                <h2>UI/UX Design</h2>
+                <p>User Research and Analysis <br> Wireframing and Prototyping <br>
+                    Responsive and Mobile-First Design
+                    <!-- <a href="#">Learn more</a> -->
+                </p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>jgdfjkgfsjk
+                    <!-- <a href="#">Learn more</a> -->
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------My Work ---------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.jpg">
+                <div class="layer">
+                    <h3>To do list</h3>
+                    <p>It allows us to keep all our tasks in one place. Task can be added by writing in the text area and clicking the add button next to it. After completing the task it can be removed from the saved queue by clicking on the the task.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.jpg">
+                <div class="layer">
+                    <h3>Event Scheduler Website</h3>
+                    <p> This website lets you browse events from the comfort of your home and book tickets without
+                        having to go to the venue. The website typically provides features such as event creation, online registration and ticket
+                        sales. The website also offer integration with other tools such as payment gateways, calendars, and
+                        social media platforms.
+                         </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>  
+            <div class="work">
+                <img src="work-3.jpg">
+                <div class="layer">
+                    <h3>DRUM KIT Website</h3>
+                    <p> It is an Online web application developed using HTML, CSS and JS.
+                        It s offers a variety of features such as sounds of kit pressed. Drum kit items can be played using keyboard or clicking on the image.
+                        
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            </div>
+            </div>  
+            <a href="#" class="btn">See more</a>    
+        </div>
+</div> 
+<!-- ----------------contact ----------------- -->
+<div id="contact">
+    <div class="container" id="bottom">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane email "></i> yashrajgupta.601@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone phone"></i> +91 9354037057</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yashraj-gupta-8538ab1a3/"><i class="fa-brands fa-linkedin"></i></a>
+                    <!-- <a href="https://www.facebook.com/soul.suju19"><i class="fa-brands fa-facebook"></i></a> -->
+                    <!-- <a href="https://twitter.com/__Suju"><i class="fa-brands fa-twitter"></i></a> -->
+                    <a href="https://www.instagram.com/yashrajgupta.601/?next=%2F"><i class="fa-brands fa-instagram"></i>   </a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2 btn3">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169 Yashraj Gupta</p>
+    </div>
+</div>
+<!-- -------------------google sheet------------------------ -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz7KuqaP5EqMmQ1aUtfY71ymp_oADn1bRkEzm45uS8iJOqCC4hpyn4siw5hcXRKWFWNBg/exec'
+    const form = document.forms['submit-to-google-sheet']           
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!-- --------------- menu js ----------------------- -->
+  <script>
+const sidemenu = document.getElementById("sidemenu"); 
+
+
+function openmenu(){   
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-130px";
+}
+</script>
+</body>
+</html>
